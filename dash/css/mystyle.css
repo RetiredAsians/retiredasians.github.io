@@ -1,0 +1,115 @@
+.total { font-size:20px}
+
+.widget.style1 h2 {
+  font-size: 20px;
+}
+
+.fa-5x {
+  font-size: 4em;
+}
+
+.wrapper-content {
+  padding: 0px 10px 40px;
+}
+
+.font-bold a {color:#FFF}
+
+
+#ordertable .table > thead > tr > th, .table > tbody > tr > td {  line-height: 2.42857; text-align:center}
+#ordertable .tableheader  th {text-align:center}
+
+#ordertable .table > thead > tr > th, .table > tbody > tr > td > a {color:#3B3B3B}
+
+#ordermargin.ibox-content {  padding: 15px 1px 20px 2px;}
+
+#ordermargin.ibox-title {padding: 14px 8px 7px;}
+
+.text-remove {
+  color: #FF0000;
+}
+
+.text-delete {
+  color: #000; font-size:20px
+}
+
+.text-edit {
+  color: #993; font-size:20px
+}
+
+.text-detail {
+  color: #3e76af; font-size:20px
+}
+
+.text-search {
+  color: #0CA083; font-size:20px
+}
+
+.text-print {
+  color: #848484; font-size:20px
+}
+
+.text-email {
+  color: #848484; font-size:20px
+}
+
+
+
+
+
+#addnewbtn.btn-circle.btn-lg { width:80px; height:80px; border-radius:50px; color:#1ab394; border-color:#1ab394}
+#addnewbtn.btn-circle.btn-lg:hover {color:#FFF}
+.plussize {font-size:30px}
+
+#addnewdiv {padding-top:20px; }
+
+
+<!--colors-->
+
+.text-email {
+  color: #F0F; font-size:20px
+}
+
+.text-email1 {
+  color: #0FF; font-size:20px
+}
+
+.text-email2 {
+  color: #F90; font-size:20px
+}
+.text-email3 {
+  color: #339; font-size:20px
+}
+.text-email4 {
+  color: #C9C; font-size:20px
+}
+.text-email5 {
+  color: #C03; font-size:20px
+}
+.text-email6 {
+  color: #F00; font-size:20px
+}
+.text-email7 {
+  color: #0F0; font-size:20px
+}
+.text-email8 {
+  color: #00F; font-size:20px
+}
+.text-email9 {
+  color: #FF0; font-size:20px
+}
+
+
+
+#rowborder {border-bottom:1px solid #DDD; margin-top:10px}
+
+#colmargin {margin-bottom:10px}
+
+.inputborder {border-color:#CCC}
+
+#coleditor {margin-left:5px}
+
+#colmarginleft {margin-left:60px;margin-bottom:10px}
+
+.colmarginbottom {margin-bottom:10px}
+
+.colmargintop {margin-top:10px}
