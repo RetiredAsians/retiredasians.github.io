@@ -45,6 +45,8 @@
         <link href="css/responsive.css" rel="stylesheet" />
         <!-- Color Scheme -->
         <link href="css/color.css" rel="stylesheet" />
+        <!-- Overwrite -->
+        <link href="css/overwrite.css" rel="stylesheet" />
 
     <meta name="description" content="dfg"/>
     <meta name="keywords" content="dfg"/>
@@ -118,7 +120,7 @@
                                 <span class="icon-bar"></span></button>
                                 <!-- Logo -->
 
-                                <a class="navbar-brand" href="index.php">
+                                <a class="navbar-brand" href="index.html">
                                     <h3 style="
     padding-top: 15px;color: #FDB500;
 ">American Association
@@ -130,19 +132,19 @@ of Retired Asians</h3>
                                     <ul class="nav navbar-nav">
                                         <!-- Home  Mega Menu -->
                                         <li>
-                                            <a href="index.php">Home</a>
+                                            <a href="index.html">Home</a>
 
                                         </li>
                                         <!-- Mega Menu Ends -->
                                         <!-- Features Menu -->
                                         <li>
-                                            <a href="about-us.php">About Us</a>
+                                            <a href="about-us.html">About Us</a>
 
                                         </li>
                                         <!-- Ends Features Menu -->
                                         <!-- ABout Us -->
                                         <li>
-                                            <a href="services.php">Services</a>
+                                            <a href="services.html">Services</a>
 
                                         </li>
                                         <!-- Ends Widgets Block -->
@@ -159,14 +161,14 @@ of Retired Asians</h3>
 
                                         <!-- Portfolio Menu -->
                                         <li>
-                                            <a href="gallery.php">Gallery</a>
+                                            <a href="gallery.html">Gallery</a>
 
                                         </li>
                                         <!-- Portfolio Menu -->
 
                                         <!-- Contact Block -->
                                         <li>
-                                            <a href="contact.php">Contact</a>
+                                            <a href="contact.html">Contact</a>
                                         </li>
 
 
@@ -202,7 +204,7 @@ of Retired Asians</h3>
 
                         <ul class="breadcrumb white">
                             <li>
-                                <a href="index.php">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
 
                             <li class="active">Services</li>
@@ -470,7 +472,7 @@ of Retired Asians</h3>
             <div class="container">
                 <div class="row get-a-quote">
                     <div class="col-md-12">Get A Free Quote / Need a Help ?
-                    <a class="black" href="contact.php">Contact Us</a></div>
+                    <a class="black" href="contact.html">Contact Us</a></div>
                 </div>
                 <div class="move-top bg-color page-scroll">
                     <a href="#page">
@@ -511,34 +513,34 @@ of Retired Asians</h3>
 
 
                                     <li>
-                                        <a href="services-details.php?id=">Weekly Senior Lunches</a>
+                                        <a href="services-details.html?id=">Weekly Senior Lunches</a>
                                     </li>
 
 
 
 
                                     <li>
-                                        <a href="services-details.php?id=web-design.php">Translation and interpretation</a>
+                                        <a href="services-details.html?id=web-design.html">Translation and interpretation</a>
                                     </li>
 
 
 
 
                                     <li>
-                                        <a href="services-details.php?id=">Tea Talk</a>
+                                        <a href="services-details.html?id=">Tea Talk</a>
                                     </li>
 
 
 
 
                                     <li>
-                                        <a href="services-details.php?id=">Stress Management</a>
+                                        <a href="services-details.html?id=">Stress Management</a>
                                     </li>
 
 
 
                                     <li>
-                                        <a href="services.php">See All</a>
+                                        <a href="services.html">See All</a>
                                     </li>
 
                                 </ul>
@@ -581,7 +583,7 @@ of Retired Asians</h3>
                                 <p class="form-message1"></p>
                                 <div class="clearfix"></div>
                                 <!-- Form -->
-                                <form id="subscribe_form" action="/web/20161021011145/http://zozothemes.com/html/metal/demo-dark/subscription.php" method="post" name="subscribe_form"
+                                <form id="subscribe_form" action="/web/20161021011145/http://zozothemes.com/html/metal/demo-dark/subscription.html" method="post" name="subscribe_form"
                                 role="form">
                                     <div class="input-text form-group has-feedback">
                                     <input class="form-control" type="email" value="" name="subscribe_email" />
@@ -705,8 +707,8 @@ of Retired Asians</h3>
         var phone= $("#contact_phone").val();
         var msg= $("#contact_message").val();
         var formData= "name="+name+"&email="+email+"&phone="+phone+"&msg="+msg;
-      $.ajax({url: "php/contact-form.php",  type: "POST", data: formData, success: function(result){
-       window.location="index.php?stat="+result;
+      $.ajax({url: "php/contact-form.html",  type: "POST", data: formData, success: function(result){
+       window.location="index.html?stat="+result;
       }});
      });
     });</script>
